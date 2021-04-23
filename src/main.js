@@ -12,6 +12,7 @@ import './assets/iconfont2/iconfont.js'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.prototype.$target = "http://localhost:3001/"; // 本地后端地址
+
 import Axios from 'axios';
 Vue.prototype.$axios = Axios;
 Vue.use(ElementUI);

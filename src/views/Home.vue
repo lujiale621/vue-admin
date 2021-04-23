@@ -68,7 +68,7 @@
                 <Icon type="ios-keypad"></Icon>
                 商品
               </template>
-              <MenuItem name="2-1">商城列表</MenuItem>
+              <MenuItem name="2-1" :to="{ path: '/home/productpage' }">商城列表</MenuItem>
               <MenuItem name="2-2">添加商品</MenuItem>
               <MenuItem name="2-3">商品分类</MenuItem>
               <MenuItem name="2-4">商品类型</MenuItem>
@@ -100,7 +100,7 @@
                 权限
               </template>
               <MenuItem name="5-1" :to="{ path: '/home/userspage' }">用户</MenuItem>
-              <MenuItem name="5-2">菜单列表</MenuItem>
+              <MenuItem name="5-2" :to="{path: '/home/resourcepage'}">资源列表</MenuItem>
             </Submenu>
           </Menu>
         </Sider>
